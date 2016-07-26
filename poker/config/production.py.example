@@ -1,0 +1,18 @@
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+SECRET_KEY = "production_secret_key_goes_here"
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'poker',
+	'USER': 'poker',
+	'PASSWORD': 'CHANGEME',
+	'HOST': 'localhost',
+	'PORT': '',
+    }
+}
+
+STATIC_URL = '/static/'
