@@ -8,10 +8,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'poker',
-	'USER': 'poker',
-	'PASSWORD': 'CHANGEME',
-	'HOST': 'localhost',
-	'PORT': '',
+        'USER': 'poker',
+        'PASSWORD': 'CHANGEME',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
