@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # our apps here
-    'poker_api',
+    'api',
 ]
 
 MIDDLEWARE_CLASSES = [
